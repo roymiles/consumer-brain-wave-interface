@@ -3,9 +3,16 @@
 ## Significant challenges
 1. Sensitive probes to measure the low frequency, low voltage brain waves with poor physical contact
 2. Making sure there is sufficient electrical insulation to ensure the user is safe
+ 
+## Design decisions
+Use **active** electrodes
+-	High dry skin impedance can be omitted by using amplifier with very high input impedance.
+-	**Active electrodes are safer than passive electrodes**. Because the dry skin-electrode impedance is very high, the isolation barrier is much higher and so the chance of electrocution is much smaller compared to passive electrodes.
+-	Much more **consumer friendly** as they do not require any special skin preparation.
+
 
 ## Reading list
-[Open EEG !important](http://openeeg.sourceforge.net/doc/index.html)
+[Open EEG **important**](http://openeeg.sourceforge.net/doc/index.html)
 
 [A Tutorial on EEG Signal Processing Techniques
 for Mental State Recognition in Brain-Computer
